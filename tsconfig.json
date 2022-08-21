@@ -15,7 +15,9 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "types": ["cypress", "@percy/cypress"],
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src", "scripts", "backend", "src/__tests__"]
+  
 }
